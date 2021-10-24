@@ -37,20 +37,20 @@ body {
 
 .main {
     display: flex;
-    margin: 20vh 13vw;
+    margin: 20vh 10vw;
     border-radius: 10px;
     overflow: hidden;
 }
 .main-text {
     display: flex;
     flex-direction: column;
-    padding: 4rem 4.5rem;
+    padding: 4.5rem 5rem;
     color: white;
     background: var(--Dark-desaturated-blue);
     font-family: Inter, sans-serif;
 }
 .title{
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 1.5rem;
 }
 .highlight {
@@ -58,7 +58,7 @@ body {
 }
 .desc {
     font-family: "Lexend-Deca", sans-serif;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: var(--Slightly-transparent-white);
     line-height: 1.7;
     letter-spacing: 0.5px;
