@@ -1,0 +1,119 @@
+
+:root {
+    /* ### Primary */
+    --Very-dark-blue: hsl(233, 47%, 7%);      /* main background */
+    --Dark-desaturated-blue: hsl(244, 38%, 16%); /* card background */
+    --Soft-violet: hsl(277, 64%, 61%);     /* accent */
+
+    /* ### Neutral */
+    --White: hsl(0, 0%, 100%); /* main heading, stats */
+    --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75); /* main paragraph */
+    --Slightly-transparent-white-stat: hsla(0, 0%, 100%, 0.6);     /* stat headings */
+}
+
+/*
+--------------- Reset CSS */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body, h1, p {
+    margin: 0;
+}
+img {
+    display: block;
+    width: 100%;
+}
+
+/* 
+--------------- Main  */
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--Very-dark-blue);
+}
+
+.main {
+    display: flex;
+    margin: 20vh 13vw;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.main-text {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 4.5rem;
+    color: white;
+    background: var(--Dark-desaturated-blue);
+    font-family: Inter, sans-serif;
+}
+.title{
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+.highlight {
+    color: var(--Soft-violet);
+}
+.desc {
+    font-family: "Lexend-Deca", sans-serif;
+    font-size: 0.8rem;
+    color: var(--Slightly-transparent-white);
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+}
+.desc, .addition {
+    padding-right: 4rem;
+}
+.main-img {
+    background-color: hsl(277, 75%, 31.4%);
+}
+.main-img img{
+    min-width: 30rem;
+    height: 100%;
+    opacity: 0.5;
+}
+.addition {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.addition h1 {
+    font-size: 1.35rem;
+}
+.addition p {
+    font-size: 0.715rem;
+    letter-spacing: 0.5px;
+    color: var(--Slightly-transparent-white-stat);
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width:375px) {
+    html {
+        font-size: 12px;
+    }
+
+    .main {
+        flex-direction: column-reverse;
+    }
+    .main-text {
+        text-align: center;
+        padding: 2.5rem 1.5rem;
+    }
+    .desc, .addition {
+        padding: 0 2rem;
+    }
+    .addition {
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 1rem;
+    }
+    .addition-list {
+        margin-top: 2rem;
+    }
+    .main-img img {
+        min-width: 85vw;
+    }
+}
