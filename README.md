@@ -45,4 +45,4 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@putraprdn](https://www.frontendmentor.io/profile/putraprdn)
-- LinkedIn - [@putraprdn](https://www.twitter.com/putraprdn)
+- LinkedIn - [@putraprdn](https://www.linkedin.com/in/putraprdn)
