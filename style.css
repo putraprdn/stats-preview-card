@@ -90,7 +90,7 @@ body {
     margin-top: 0.5rem;
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:500px) {
     html {
         font-size: 12px;
     }
