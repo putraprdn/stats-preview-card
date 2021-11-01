@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [GitHub.io](https://putraprdn.github.io/stats-preview-card/)
+- Live Site URL: [Via Github](https://putraprdn.github.io/stats-preview-card/)
 
 ## My process
 
@@ -45,4 +45,4 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@putraprdn](https://www.frontendmentor.io/profile/putraprdn)
-- LinkedIn - [@putraprdn](https://www.linkedin.com/in/putraprdn)
+- LinkedIn - [Muhamad Putra Perdana](https://www.linkedin.com/in/putraprdn)
